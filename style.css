@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Variable.ttf') format('woff2');
+    font-weight: 100 900;/
+    font-stretch: 75% 125%;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Variable-Italic.ttf') fformat('woff2');
+    font-weight: 100 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    color: #ffffff;
+}
+
+.hero {
+    height: 475px;
+    width: 100%;
+    max-width: 1440px;
+    align-items: start;
+    background: #303030;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+#hero-title {
+    font-weight: 600;
+    font-size: 60px;
+    padding-left: 62px;
+    padding-top: 206px;
+    margin-bottom: auto;
+}
+
+#hero-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 62px;
+}
+
+.results {
+    height: 229px;
+    width: 100%;
+    max-width: 1440px;
+    background-color: #F9F9F9;
+}
+
+.results-columns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.result h4 {
+    font-weight: 600;
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: 0px;
+}
+
+.result p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    margin: 0;
+}
+
+
+.history{
+    width: 100%;
+    max-width: 1440px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 40px;
+}
