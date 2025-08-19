@@ -129,6 +129,52 @@ body {
     height: 638px;
     background-color: #303030 ;
     display: grid;
+    justify-items: center;
+}
+.cta-section h3 {
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFFFFF;
+    margin: 0;
+    margin-top: 50px;
+}
+
+.form-style{
+    display: flex;
     flex-direction: column;
-    justify-content: center;
+    columns: 1;
+    align-items: center;
+    gap: 25px;
+}
+.form-style input {
+    width: 508px;
+    height: 72px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+}
+.form-style input::placeholder {
+    width: 508px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #C4C4C4;
+    padding-left: 20px;
+}
+
+.cta-section button{
+    width: 286px;
+    height: 74px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: #C07212 ;
+    cursor: pointer;
+    border: none  ;
+    border-radius: 10px ;
+}
+
+.cta-section button: hover{
+    background-color: #C07212;
+    color: #fff;
+    transition:  0.3s;
 }
