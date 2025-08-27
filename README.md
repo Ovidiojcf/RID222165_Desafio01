@@ -33,6 +33,6 @@ O layout é responsivo e utiliza a fonte variável _Inter_ para uma boa leitura 
 - Planilha de dados (Sheetmonkey):  
   [Acesse a planilha de dados](https://docs.google.com/spreadsheets/d/1WMVbiRNXEBDmbE1ORyTIHuumxX_NA2KvSEEcI4fX4X4/edit?gid=0#gid=0)
 - Site Hospedado na Netlify:  
-  [Acesse ao site]()
+  [Acesse ao site](https://arquiteturalp-1830.netlify.app/)
 
 ##
